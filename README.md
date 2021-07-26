@@ -1,1 +1,4 @@
-Документация для основных конеченых точек REST API проекта PhotoPrism
+Description of main PhotoPrism API endpoints.
+
+# Photos
+- [GET /api/v1/photos](photos/get-photos.md)
