@@ -58,12 +58,12 @@ Useful links:
     <tr>
       <td>count <br> (required)</td>
       <td>Int</td>
-      <td>Int: Max result count</td>
+      <td>Max result count</td>
     </tr>
     <tr>
       <td>offset</td>
       <td>Int</td>
-      <td>Int: Result offset</td>
+      <td>Result offset</td>
     </tr>
     <tr>
       <td>before</td>
@@ -83,7 +83,7 @@ Useful links:
     <tr>
       <td>merged</td>
       <td>Bool</td>
-      <td>-</td>
+      <td>Find merged photos only (dublicates)</td>
     </tr>
     <tr>
       <td>year</td>
