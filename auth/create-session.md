@@ -18,6 +18,8 @@ Request: /api/v1/session
 <details>
   <summary>Parameters (local instance)</summary>
 
+  <br/>
+
   | Parameter | Value     |
   | --------- | --------- |
   | username  | admin     |
@@ -26,10 +28,12 @@ Request: /api/v1/session
 
 <br/>
 
-## Response
+### Response
 
 <details>
   <summary>Headers</summary>
+
+  <br/>
 
   | Name              | Value                                            |
   | ----------------- | ------------------------------------------------ |
@@ -38,8 +42,6 @@ Request: /api/v1/session
   | Date              | Sun, 01 Aug 2021 20:24:50 GMT                    |
   | Transfer-Encoding | chunked                                          |
 </details>  
-
-<br/>
 
 <details>
   <summary>JSON</summary>
