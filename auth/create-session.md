@@ -9,11 +9,10 @@ POST body should contain JSON with following parameters:
 | username  | PhotoPrism user name (default is "admin") |
 | password  | PhotoPrism user password                  |
 
-<br/>
 
 # Example
 
-Request: /api/v1/session
+Request: `/api/v1/session`
 
 <details>
   <summary>Parameters (local instance)</summary>
@@ -25,8 +24,6 @@ Request: /api/v1/session
   | username  | admin     |
   | password  | photogate | 
 </details>  
-
-<br/>
 
 ### Response
 
