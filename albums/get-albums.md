@@ -7,21 +7,21 @@ Useful links:
 - [API handler implementation](https://github.com/photoprism/photoprism/blob/5076af297963/internal/api/album.go#L44)
 
 
-| Parameter             | Type   | Description                                                                                              |
-| --------------------- | ------ | -------------------------------------------------------------------------------------------------------- |
-| q                     | String | Query string. Can be any search string. Supports special format: [param1]:[value1] [param2]:[value2] ... |
-| id                    | String | Album UID                                                                                                |
-| type                  | String | Album type (album, moment, folder, state)                                                                |
-| title                 | String | Find albums by their title                                                                               |
-| country               | String | Country code (format: "ru")                                                                              |
-| year                  | Int    | Year number (format: YYYY)                                                                               |
-| month                 | Int    | Month number (format: 1-12)                                                                              |
-| day                   | Int    | Day number (format: 1-31?)                                                                               |
-| favorite              | Bool   | Find favorites only                                                                                      |
-| private               | Bool   | Find private only                                                                                        |
-| count <br> (required) | Int    | Max result count                                                                                         |
-| offset                | Int    | Result offset                                                                                            |
-| order                 | String | Sort order (see [sorting values](../sorting-values.md))                                                  |
+| Parameter             | Type   | Description                                                                                                                                        |
+| --------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| q                     | String | Query string. Can be part of album title or location name. Supports special format: [param1]:[value1] [param2]:[value2] ...                        |
+| id                    | String | Album UID                                                                                                                                          |
+| type                  | String | Album type (album, moment, folder, state)                                                                                                          |
+| title                 | String | Find albums by their title                                                                                                                         |
+| country               | String | Country code (format: "ru")                                                                                                                        |
+| year                  | Int    | Year number (format: YYYY)                                                                                                                         |
+| month                 | Int    | Month number (format: 1-12)                                                                                                                        |
+| day                   | Int    | Day number (format: 1-31?)                                                                                                                         |
+| favorite              | Bool   | Find favorites only                                                                                                                                |
+| private               | Bool   | Find private only                                                                                                                                  |
+| count <br> (required) | Int    | Max result count                                                                                                                                   |
+| offset                | Int    | Result offset                                                                                                                                      |
+| order                 | String | Sort order (slug, [default](https://github.com/photoprism/photoprism/blob/5076af2979638b1722003ad6c22a0d59e4af76cf/internal/query/albums.go#L128)) |
 
 
 # Example
