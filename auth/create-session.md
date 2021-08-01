@@ -1,5 +1,4 @@
 # POST /api/v1/session
-
 Authorizes in PhotoPrism and returns Session ID, lenses, cameras, colors and other parameters (see [example](#Example)).
 
 POST body should contain JSON with following parameters:
@@ -9,9 +8,11 @@ POST body should contain JSON with following parameters:
 | username  | PhotoPrism user name (default is "admin") |
 | password  | PhotoPrism user password                  |
 
+Useful links:
+- [API handler implementation](https://github.com/photoprism/photoprism/blob/5076af297963/internal/api/session.go#L16)
+
 
 # Example
-
 Request: `/api/v1/session`
 
 <details>
@@ -26,7 +27,6 @@ Request: `/api/v1/session`
 </details>  
 
 ### Response
-
 <details>
   <summary>Headers</summary>
 
