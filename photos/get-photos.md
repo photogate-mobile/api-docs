@@ -36,70 +36,95 @@ Useful links:
 
 # Example
 Request: `/api/v1/photos?count=1`
+- `X-Session-Id` header
 
-Response:
-```json
-[
-  {
-    "ID": "130",
-    "UID": "pqwujsr25o0r0mji",
-    "Type": "image",
-    "TypeSrc": "",
-    "TakenAt": "2021-07-26T10:00:27Z",
-    "TakenAtLocal": "2021-07-26T10:00:27Z",
-    "TakenSrc": "",
-    "TimeZone": "UTC",
-    "Path": "2021/07",
-    "Name": "20210726_100027_2B2F9E01",
-    "OriginalName": "20160528_215318",
-    "Title": "Unknown",
-    "Description": "",
-    "Year": -1,
-    "Month": -1,
-    "Day": -1,
-    "Country": "zz",
-    "Stack": 0,
-    "Favorite": true,
-    "Private": false,
-    "Iso": 0,
-    "FocalLength": 0,
-    "FNumber": 0,
-    "Exposure": "",
-    "Quality": 5,
-    "Resolution": 3,
-    "Color": 0,
-    "Scan": false,
-    "Panorama": false,
-    "CameraID": 1,
-    "CameraModel": "Unknown",
-    "CameraMake": "",
-    "LensID": 1,
-    "LensModel": "Unknown",
-    "LensMake": "",
-    "Lat": 0,
-    "Lng": 0,
-    "CellID": "zz",
-    "PlaceID": "zz",
-    "PlaceSrc": "",
-    "PlaceLabel": "Unknown",
-    "PlaceCity": "Unknown",
-    "PlaceState": "Unknown",
-    "PlaceCountry": "zz",
-    "InstanceID": "0f4aff74-11c0-4f3e-b37e-9d1512799028",
-    "FileUID": "fqwujss3rrp61qlg",
-    "FileRoot": "/",
-    "FileName": "2021/07/20210726_100027_2B2F9E01.jpg",
-    "Hash": "047b661c271ebea1efe54ef5275f9cabd0eb101a",
-    "Width": 1705,
-    "Height": 1705,
-    "Portrait": false,
-    "Merged": false,
-    "CreatedAt": "2021-07-26T10:00:27.836808257Z",
-    "UpdatedAt": "2021-07-26T10:02:48.897720889Z",
-    "EditedAt": "2021-07-26T10:02:49Z",
-    "CheckedAt": "2021-07-26T10:15:43Z",
-    "DeletedAt": "0001-01-01T00:00:00Z",
-    "Files": null
-  }
-]
-```
+
+### Response
+<details>
+  <summary>Headers</summary>
+
+  <br/>
+
+  | Name             | Value                           |
+  | ---------------- | ------------------------------- |
+  | Content-Type     | application/json; charset=utf-8 |
+  | X-Count          | 1                               |
+  | X-Download-Token | bupvwse1                        |
+  | X-Limit          | 1                               |
+  | X-Offset         | 0                               |
+  | X-Preview-Token  | 2e78f2ac                        |
+  | Date             | Mon, 02 Aug 2021 12:47:38 GMT   |
+  | Content-Length   | 1152                            |
+</details>  
+
+<details>
+  <summary>JSON</summary>
+
+  <br/>
+
+  ```json
+  [
+   {
+     "ID": "105",
+     "UID": "pqx6gl7v6cl2xt4q",
+     "Type": "video",
+     "TypeSrc": "",
+     "TakenAt": "2021-02-20T01:29:16Z",
+     "TakenAtLocal": "2021-02-20T01:29:16Z",
+     "TakenSrc": "",
+     "TimeZone": "UTC",
+     "Path": "videos",
+     "Name": "20210220-012916-Not-A-Cat-2021",
+     "OriginalName": "",
+     "Title": "Not a Cat",
+     "Description": "",
+     "Year": 2021,
+     "Month": 2,
+     "Day": 20,
+     "Country": "zz",
+     "Stack": 0,
+     "Favorite": false,
+     "Private": false,
+     "Iso": 0,
+     "FocalLength": 0,
+     "FNumber": 0,
+     "Exposure": "",
+     "Quality": 3,
+     "Resolution": 0,
+     "Color": 0,
+     "Scan": false,
+     "Panorama": false,
+     "CameraID": 1,
+     "CameraModel": "Unknown",
+     "CameraMake": "",
+     "LensID": 1,
+     "LensModel": "Unknown",
+     "LensMake": "",
+     "Lat": 0,
+     "Lng": 0,
+     "CellID": "zz",
+     "PlaceID": "zz",
+     "PlaceSrc": "",
+     "PlaceLabel": "Unknown",
+     "PlaceCity": "Unknown",
+     "PlaceState": "Unknown",
+     "PlaceCountry": "zz",
+     "InstanceID": "",
+     "FileUID": "fqx6gl831oq12wil",
+     "FileRoot": "sidecar",
+     "FileName": "videos/20210220-012916-Not-A-Cat-2021.mp4.jpg",
+     "Hash": "cd78c8df6e40f522e71f160d063a947e7136292e",
+     "Width": 480,
+     "Height": 480,
+     "Portrait": false,
+     "Merged": false,
+     "CreatedAt": "2021-08-01T20:22:19Z",
+     "UpdatedAt": "2021-08-01T20:22:20Z",
+     "EditedAt": "0001-01-01T00:00:00Z",
+     "CheckedAt": "2021-08-01T20:31:50Z",
+     "DeletedAt": "0001-01-01T00:00:00Z",
+     "Files": null
+   }
+  ]
+  ```
+</details>  

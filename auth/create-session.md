@@ -42,6 +42,8 @@ Request: `/api/v1/session`
 
 <details>
   <summary>JSON</summary>
+
+  <br/>
   
   ```json
   {

@@ -26,37 +26,61 @@ Useful links:
 
 # Example
 Request: `/api/v1/albums?count=1`
+- `X-Session-Id` header
 
-Response:
-```json
-[
-  {
-    "UID": "aqx6gl9351sd0u1a",
-    "CoverUID": "",
-    "FolderUID": "",
-    "Slug": "february-2021",
-    "Type": "month",
-    "Title": "February 2021",
-    "Location": "",
-    "Category": "",
-    "Caption": "",
-    "Description": "",
-    "Notes": "",
-    "Filter": "public:true year:2021 month:2",
-    "Order": "oldest",
-    "Template": "",
-    "Path": "",
-    "Country": "zz",
-    "Year": 2021,
-    "Month": 2,
-    "Day": 0,
-    "Favorite": false,
-    "Private": false,
-    "PhotoCount": 0,
-    "LinkCount": 0,
-    "CreatedAt": "2021-08-01T20:22:22Z",
-    "UpdatedAt": "2021-08-01T20:22:22Z",
-    "DeletedAt": "0001-01-01T00:00:00Z"
-  }
-]
+### Response
+<details>
+  <summary>Headers</summary>
+
+  <br/>
+
+  | Name             | Value                           |
+  | ---------------- | ------------------------------- |
+  | Content-Type     | application/json; charset=utf-8 |
+  | X-Count          | 1                               |
+  | X-Download-Token | 1nj0xqc7                        |
+  | X-Limit          | 1                               |
+  | X-Offset         | 0                               |
+  | X-Preview-Token  | 2e78f2ac                        |
+  | Date             | Sun, 01 Aug 2021 22:46:24 GMT   |
+  | Content-Length   | 482                             |
+</details>  
+
+<details>
+  <summary>JSON</summary>
+
+  <br/>
+
+  ```json
+  [
+    {
+      "UID": "aqx6gl9351sd0u1a",
+      "CoverUID": "",
+      "FolderUID": "",
+      "Slug": "february-2021",
+      "Type": "month",
+      "Title": "February 2021",
+      "Location": "",
+      "Category": "",
+      "Caption": "",
+      "Description": "",
+      "Notes": "",
+      "Filter": "public:true year:2021 month:2",
+      "Order": "oldest",
+      "Template": "",
+      "Path": "",
+      "Country": "zz",
+      "Year": 2021,
+      "Month": 2,
+      "Day": 0,
+      "Favorite": false,
+      "Private": false,
+      "PhotoCount": 0,
+      "LinkCount": 0,
+      "CreatedAt": "2021-08-01T20:22:22Z",
+      "UpdatedAt": "2021-08-01T20:22:22Z",
+      "DeletedAt": "0001-01-01T00:00:00Z"
+    }
+  ]
 ```
+</details>  
