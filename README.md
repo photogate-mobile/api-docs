@@ -10,3 +10,4 @@ Every API request requires `X-Session-Id` authorization header (see "session" en
 
 # Photos
 - [GET /api/v1/photos](photos/get-photos.md)
+- [GET /api/v1/photos/:uid](photos/get-photo.md)
