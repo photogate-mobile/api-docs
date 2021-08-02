@@ -1,5 +1,5 @@
 # GET /api/v1/config
-Returns PhotoPrism configuration.
+Returns PhotoPrism values for search and thumbnails.
 
 Useful links:
 - [API handler implementation](https://github.com/photoprism/photoprism/blob/5076af297963/internal/api/config.go#L18)
