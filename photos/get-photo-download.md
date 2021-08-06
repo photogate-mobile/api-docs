@@ -4,9 +4,9 @@ Returns full-size photo file.
 Useful links:
 - [API handler implementation](https://github.com/photoprism/photoprism/blob/5076af297963/internal/api/photo.go#L126)
 
-| Parameter | Type   | Description    |
-| --------- | ------ | -------------- |
-| t         | String | Download token |
+| Parameter | Type   | Description                                           |
+| --------- | ------ | ----------------------------------------------------- |
+| t         | String | Download token. See [config](../config/get-config.md) |
 
 
 # Example

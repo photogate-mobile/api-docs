@@ -13,7 +13,7 @@ Request: `/api/end/point`
 <details>
   <summary>Headers</summary>
 
-  <br/>
+  <br>
 
   | Name              | Value                           |
   | ----------------- | ------------------------------- |
@@ -25,7 +25,7 @@ Request: `/api/end/point`
 <details>
   <summary>JSON</summary>
 
-  <br/>
+  <br>
 
   ```json
   ```
