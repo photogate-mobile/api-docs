@@ -11,9 +11,8 @@ Useful links:
 | token     | String | Preview token. See [config](../config/get-config.md) |
 | type      | String | Thumbnail type. See table below                      |
 
-### Thumbnail types
 
-| Name                       | Use                      | Source   | Dimensions (WxH) | Public |
+| Type                       | Use                      | Source   | Dimensions (WxH) | Public |
 | -------------------------- | ------------------------ | -------- | ---------------- | ------ |
 | tile_50                    | Lists                    | tile_500 | 50x50            | false  |
 | tile_100                   | Maps                     | tile_500 | 100x100          | false  |

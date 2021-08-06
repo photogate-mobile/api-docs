@@ -16,3 +16,4 @@ Every API request requires `X-Session-Id` authorization header (see "session" en
 - [GET /api/v1/photos](photos/get-photos.md) // The list of photos
 - [GET /api/v1/photos/:uid](photos/get-photo.md) // Full information about photo
 - [GET /api/v1/photos/:uid/dl](photos/get-photo-download.md) // Download full-size photo
+- [GET /api/v1/t/:hash/:token/:type](photos/get-thumb.md) // Download thumbnail for given media file
